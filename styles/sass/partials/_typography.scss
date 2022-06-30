@@ -1,0 +1,26 @@
+//Font Families
+
+//AbrilFatface
+@font-face {
+    font-family: 'AbrilFatface';
+    src: url(../fonts/Abril_Fatface/AbrilFatface-Regular.ttf);
+    font-weight: normal;
+}
+
+// Montserrat
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf),
+         url(../fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf);
+         font-weight: normal;        
+}
+
+html {
+    font-size: 125%;
+}
+
+p {
+    font-size: 0.9rem;
+}
+ 
+    
