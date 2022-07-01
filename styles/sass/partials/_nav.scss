@@ -7,7 +7,6 @@
     background-color: $pine;
     color: black;
     z-index: 10;
-
     &:focus {
         left: 0;
     }
@@ -25,24 +24,25 @@
 
 .mainNav ul{
     display: flex;
+    justify-content: center;
+    align-items: center;
     li {
         list-style: none;
         a{
-                text-decoration: none;
-                color: $white-shade;
-                font-family: 'Montserrat';
-                font-weight: bold;
-                font-size: .8rem;
-                letter-spacing: 1px;
-                // margin-left: 20px;
-                justify-content: center;
+            text-decoration: none;
+            color: $white-shade;
+            font-family: 'Montserrat';
+            font-weight: bold;
+            font-size: .8rem;
+            letter-spacing: 1px;
+            margin: 20px;
         }
-    }
-    
+    }    
 }
-
-.mainNav a #logo {
+.mainNav li .logo {
     font-family: 'AbrilFatface';
+    font-size: 1.5rem;
+    font-weight: 200;
 }
 
 
