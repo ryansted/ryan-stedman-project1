@@ -245,6 +245,10 @@ p {
   margin: 0 auto;
 }
 
+.text-align-right {
+  text-align: right;
+}
+
 .skip-link {
   position: absolute;
   left: -1000px;
@@ -315,8 +319,9 @@ header {
 
 .image-container .willow {
   width: 100%;
-  -webkit-box-shadow: 25px 25px #f6f6f6;
-          box-shadow: 25px 25px #f6f6f6;
+  -webkit-box-shadow: 25px 25px white;
+          box-shadow: 25px 25px white;
+  z-index: 10;
 }
 
 .logo-container {
@@ -365,7 +370,7 @@ header {
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 0;
-  margin-bottom: 50px;
+  margin-bottom: 0;
   padding-bottom: 100px;
   width: 100%;
   background-color: #f6f6f6;
@@ -391,12 +396,137 @@ header {
   padding: 10px 20px;
 }
 
-.gallery-container {
+.gallery {
+  width: 100%;
+}
+.gallery .gallery-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.gallery .gallery-container .gallery-item {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 60px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.gallery .gallery-container .gallery-item p {
+  width: 70%;
+}
+.gallery .gallery-container .gallery-item .gallery-image-1 {
+  background-color: #709b6b;
+}
+.gallery .gallery-container .gallery-item .gallery-image-2 {
+  background-color: #345231;
+}
+.gallery .gallery-container .gallery-item .gallery-img-container {
+  height: 400px;
+  position: relative;
+  width: 50%;
+}
+.gallery .gallery-container .gallery-item .gallery-img-container img {
+  position: absolute;
+  height: 390px;
+  bottom: 40px;
+}
+.gallery .gallery-container .gallery-item .gallery-img-container .left-img {
+  right: 40px;
+}
+.gallery .gallery-container .gallery-item .gallery-img-container .right-img {
+  left: -40px;
+}
+.gallery .gallery-container .gallery-item .gallery-text {
+  width: 50%;
+}
+
+.gallery-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 100px;
+}
+.gallery-text h4 {
+  font-family: "AbrilFatface";
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  width: 70%;
+}
+.gallery-text p {
+  font-family: "Montserrat";
+  font-size: 1rem;
+}
+.gallery-text a {
+  font-family: "AbrilFatface";
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  width: 30%;
+}
+
+.journey {
+  width: 100%;
+  margin: 100px 100px;
+  background-color: #f6f6f6;
+  padding: 100px 100px;
+}
+.journey .journey-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.gallery-container img {
-  -webkit-box-shadow: -100px 50px #345231;
-          box-shadow: -100px 50px #345231;
+.journey .journey-container img {
+  -webkit-box-shadow: 20px 20px #709b6b;
+          box-shadow: 20px 20px #709b6b;
+  width: 13rem;
+}
+.journey .journey-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  -ms-flex-line-pack: right;
+      align-content: right;
+  margin-left: 100px;
+}
+.journey .journey-text h3 {
+  font-family: "AbrilFatface";
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.journey .journey-text p {
+  font-family: "Montserrat";
+  font-size: 0.8rem;
+}
+.journey .journey-text a {
+  font-family: "AbrilFatface";
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #e4a436;
+  padding: 10px 20px;
+  width: 30%;
+  margin-top: 20px;
+}
+
+.static-image img {
+  width: 100%;
 }

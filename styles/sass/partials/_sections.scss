@@ -4,30 +4,32 @@
     align-items: center;
 }
 
- .about {
+.about {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: 0;  
-    margin-bottom: 50px;
+    margin: 0;
+    margin-bottom: 0;
     padding-bottom: 100px;
     width: 100%;
     background-color: $white-shade;
-      
+
     h3 {
-        font-family: 'AbrilFatface';
+        font-family: "AbrilFatface";
         font-size: 2rem;
         text-transform: uppercase;
     }
-    p{
+
+    p {
         text-align: center;
-        font-family: 'Montserrat';
+        font-family: "Montserrat";
         font-size: 1rem;
         width: 70%;
     }
+
     a {
         background-color: $accent;
-        font-family: 'AbrilFatface';
+        font-family: "AbrilFatface";
         text-decoration: none;
         color: $black;
         text-transform: uppercase;
@@ -36,9 +38,129 @@
     }
 }
 
-.gallery-container {
-    display: flex;
-    img {
-        box-shadow: -100px 50px $pine;
+.gallery {
+    width: 100%;
+
+    .gallery-container {
+        display: flex;
+        flex-direction: column;
+
+        .gallery-item {
+            width: 100%;
+            display: flex;
+            margin-bottom: 60px;
+            align-items: center;
+            p {
+                width: 70%;
+            }
+
+            .gallery-image-1 {
+                background-color: $green-grey;
+            }
+
+            .gallery-image-2 {
+                background-color: $pine;
+            }
+
+            .gallery-img-container {
+                height: 400px;
+                position: relative;
+                width: 50%;
+
+                img {
+                    position: absolute;
+                    height: 390px;
+                    bottom: 40px;
+                }
+
+                .left-img {
+                    right: 40px;
+                }
+
+                .right-img {
+                    left: -040px;
+                }
+            }
+
+            .gallery-text {
+                width: 50%;
+            }
+        }
     }
 }
+
+.gallery-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 100px;
+    h4 {
+        font-family: 'AbrilFatface';
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        width: 70%;
+    }
+    p {
+        font-family: 'Montserrat';
+        font-size: 1rem;
+    }
+    a {
+        font-family: 'AbrilFatface';
+        font-size: .8rem;
+        text-transform: uppercase;
+        width: 30%;
+        
+    }
+}
+
+// willow journey  section
+
+ .journey {
+    width: 100%;
+    // display: flex;
+    margin: 100px 100px;
+    background-color: $white-shade;
+    padding: 100px 100px;
+    .journey-container {
+        display: flex;
+        img {
+            box-shadow: 20px 20px $green-grey;
+                width: 13rem;
+        }
+    }
+    .journey-text {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        align-content: right;
+        margin-left: 100px;
+        // padding: 100px 100px;
+        h3 {
+            font-family: 'AbrilFatface';
+            font-size: 1.5rem;
+            text-transform: uppercase;
+        }
+        p {
+            font-family: 'Montserrat';
+            font-size: .8rem; 
+        }
+        a {
+            font-family: 'AbrilFatface';
+            font-size: .8rem;
+            text-transform: uppercase;
+            text-decoration: none;
+            background-color: $accent;
+            padding: 10px 20px;
+            width: 30%;
+            margin-top: 20px;
+        }
+    }   
+}
+
+// background static image
+
+.static-image img {
+    width: 100%;
+}
+

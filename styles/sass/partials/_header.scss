@@ -15,7 +15,8 @@ header {
         // position: absolute;
         // top: -2rem;
             width: 100%;
-            box-shadow: 25px 25px $white-shade;
+            box-shadow: 25px 25px white;
+            z-index: 10;
         }
 }
 
