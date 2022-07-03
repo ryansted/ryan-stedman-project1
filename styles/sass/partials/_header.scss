@@ -1,0 +1,45 @@
+header {
+    background-color: $pine;
+    
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    // position: relative;
+}
+
+
+.image-container {
+    .willow {
+        // position: absolute;
+        // top: -2rem;
+            width: 100%;
+            box-shadow: 25px 25px $white-shade;
+        }
+}
+
+
+
+.logo-container {  
+    position: relative; 
+    text-transform: uppercase;
+    display: flex;
+    img {
+        position: absolute;
+        top: 4.5rem;
+        left: -2.5rem;
+
+        height: 7rem;
+        // width:  100%;
+        // height: 100%;
+    }
+    h2{
+        font-family: 'AbrilFatface';
+        font-size: 6rem;
+        margin-right: 40px;
+        color: $white-shade;
+        width: 100%;
+    }
+
+}

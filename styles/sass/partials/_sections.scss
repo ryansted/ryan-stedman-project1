@@ -1,0 +1,44 @@
+#main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ .about {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;  
+    margin-bottom: 50px;
+    padding-bottom: 100px;
+    width: 100%;
+    background-color: $white-shade;
+      
+    h3 {
+        font-family: 'AbrilFatface';
+        font-size: 2rem;
+        text-transform: uppercase;
+    }
+    p{
+        text-align: center;
+        font-family: 'Montserrat';
+        font-size: 1rem;
+        width: 70%;
+    }
+    a {
+        background-color: $accent;
+        font-family: 'AbrilFatface';
+        text-decoration: none;
+        color: $black;
+        text-transform: uppercase;
+        margin-top: 35px;
+        padding: 10px 20px;
+    }
+}
+
+.gallery-container {
+    display: flex;
+    img {
+        box-shadow: -100px 50px $pine;
+    }
+}
