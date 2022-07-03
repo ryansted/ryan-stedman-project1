@@ -530,3 +530,12 @@ header {
 .static-image img {
   width: 100%;
 }
+
+.gallery-2-container {
+  display: inline-block;
+  width: 100%;
+}
+.gallery-2-container img {
+  margin: 80px 20px;
+  width: 15rem;
+}

@@ -164,3 +164,13 @@
     width: 100%;
 }
 
+// gallery with fruit
+
+.gallery-2-container {
+    display: inline-block;
+    width: 100%;
+    img {
+        margin: 80px 20px;
+        width: 15rem;
+    }
+}
