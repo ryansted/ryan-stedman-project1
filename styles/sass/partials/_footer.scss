@@ -4,8 +4,14 @@ footer {
         text-align: center;
         font-family: 'Montserrat';
         color: $white-shade;
-        font-size: .6rem;
+        font-size: .55rem;
+        font-weight: 100;
         margin: 0;
         padding: 4px;
     }
+}
+
+
+.form-submit {
+    width: 100%;
 }

@@ -254,7 +254,6 @@ p {
   left: -1000px;
   top: 5px;
   background-color: #345231;
-  color: black;
   z-index: 10;
 }
 .skip-link:focus {
@@ -267,8 +266,6 @@ p {
   display: flex;
   position: sticky;
   top: 0;
-  border-top: 1px solid rgba(8, 75, 109, 0.08);
-  border-bottom: 1px solid rgba(8, 75, 109, 0.08);
   background-color: #345231;
   z-index: 20;
 }
@@ -283,7 +280,7 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 70px;
+  margin-bottom: 20px;
 }
 .mainNav ul li {
   list-style: none;
@@ -304,7 +301,7 @@ p {
   font-weight: 200;
 }
 
-header {
+.main-header {
   background-color: #345231;
 }
 
@@ -343,6 +340,24 @@ header {
   margin-right: 40px;
   color: #f6f6f6;
   width: 100%;
+}
+
+.tree-background {
+  background-image: url(../assets/blog-image-1.jpg);
+  width: 100%;
+  height: 15rem;
+}
+.tree-background .blog-text {
+  position: absolute;
+}
+.tree-background .blog-text h2 {
+  position: relative;
+  font-family: "AbrilFatface";
+  font-size: 2.5rem;
+  color: #f6f6f6;
+  text-transform: uppercase;
+  top: 10.6rem;
+  left: 4rem;
 }
 
 #main-content {
@@ -600,6 +615,130 @@ header {
   font-size: 1rem;
 }
 
+#main-blog-content {
+  background-color: #f6f6f6;
+  padding-top: 50px;
+}
+
+.blog-page-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.colomn1 {
+  width: 30%;
+}
+
+.about-willow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+}
+.about-willow h3 {
+  margin: 0;
+  font-family: "AbrilFatface";
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 100;
+}
+.about-willow p {
+  margin: 0;
+  font-family: "Montserrat";
+  font-size: 0.6rem;
+  line-height: 20px;
+}
+.about-willow p a {
+  text-decoration: none;
+  color: #709b6b;
+}
+
+.recent-posts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+  margin-top: 10px;
+}
+.recent-posts h3 {
+  font-family: "AbrilFatface";
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 100;
+}
+.recent-posts ul {
+  padding: 0;
+  margin-left: 20px;
+}
+.recent-posts ul li {
+  margin: 0;
+  font-family: "Montserrat";
+  font-size: 0.6rem;
+  line-height: 20px;
+}
+
+.colomn2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 70%;
+  margin-left: 20px;
+}
+.colomn2 .travel {
+  background-color: white;
+  padding: 20px;
+  width: 100%;
+  border-bottom: 4px solid #709b6b;
+}
+.colomn2 .travel h3 {
+  font-family: "AbrilFatface";
+  font-size: 1.2rem;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+.colomn2 .travel p {
+  font-family: "Montserrat";
+  font-size: 0.7rem;
+  line-height: 20px;
+}
+
+.post {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  margin-top: 20px;
+}
+.post p {
+  font-family: "Montserrat";
+  font-size: 0.7rem;
+  margin-left: 15px;
+  margin-bottom: 0;
+}
+
 footer {
   background-color: #1f1f1f;
 }
@@ -607,7 +746,12 @@ footer h5 {
   text-align: center;
   font-family: "Montserrat";
   color: #f6f6f6;
-  font-size: 0.6rem;
+  font-size: 0.55rem;
+  font-weight: 100;
   margin: 0;
   padding: 4px;
+}
+
+.form-submit {
+  width: 100%;
 }

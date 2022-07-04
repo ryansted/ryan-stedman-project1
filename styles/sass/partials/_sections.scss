@@ -235,3 +235,122 @@
         }
     }
 }
+
+
+//section for blog and news
+
+#main-blog-content {
+    background-color: $white-shade;
+    padding-top: 50px;
+}
+
+.blog-page-body {
+    display: flex;
+}
+
+.colomn1 {
+    width: 30%
+}
+
+.about-willow {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+
+    h3 {
+        margin: 0;
+        font-family: 'AbrilFatface';
+        font-size: .6rem;
+        text-transform: uppercase;
+        text-align: left;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-weight: 100;
+    }
+
+    p {
+        margin: 0;
+        font-family: 'Montserrat';
+        font-size: .6rem;
+        line-height:20px;
+
+        a {
+            text-decoration: none;
+            color: $green-grey;
+        }
+    }
+}
+
+
+.recent-posts {    
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: white;
+        padding: 20px;
+        margin-top: 10px;
+
+        h3 {
+            // margin: 0;
+            font-family: 'AbrilFatface';
+            font-size: .6rem;
+            text-transform: uppercase;
+            text-align: left;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-weight: 100;
+        }
+        ul {
+            padding: 0;
+            margin-left: 20px;
+            li {
+                margin: 0;
+                font-family: 'Montserrat';
+                font-size: .6rem;
+                line-height: 20px;
+            }
+        }
+}
+
+.colomn2 {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: 20px;
+    .travel {
+        background-color: white;
+        padding: 20px;
+        width: 100%;
+        border-bottom: 4px solid $green-grey;
+        h3 {
+            font-family: 'AbrilFatface';
+            font-size: 1.2rem;
+            font-weight: 200;
+            text-transform: uppercase;
+        }
+        p {
+            font-family: 'Montserrat';
+            font-size: .7rem;
+            line-height: 20px;
+        }
+    }
+}
+
+.post {
+    display: flex;
+    background-color: white;
+    margin-top: 20px;
+    p {
+        font-family: 'Montserrat';
+        font-size: .7rem;
+        margin-left: 15px;
+        margin-bottom: 0;
+    }
+
+}
+
+
+
+
