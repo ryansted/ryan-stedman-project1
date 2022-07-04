@@ -473,9 +473,11 @@ header {
 }
 .gallery-text a {
   font-family: "AbrilFatface";
+  background-color: #e4a436;
+  padding: 10px 20px;
+  color: #1f1f1f;
   font-size: 0.8rem;
   text-transform: uppercase;
-  width: 30%;
 }
 
 .journey {
@@ -518,6 +520,8 @@ header {
 }
 .journey .journey-text a {
   font-family: "AbrilFatface";
+  color: #1f1f1f;
+  text-align: center;
   font-size: 0.8rem;
   text-transform: uppercase;
   text-decoration: none;
@@ -538,4 +542,72 @@ header {
 .gallery-2-container img {
   margin: 80px 20px;
   width: 15rem;
+}
+
+.flex-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.flex-contact .photos-link {
+  width: 50%;
+}
+.flex-contact .photos-link h4 {
+  font-family: "AbrilFatface";
+  text-transform: uppercase;
+  font-size: 1.3rem;
+}
+.flex-contact .photos-link p {
+  font-family: "Montserrat";
+  font-size: 1rem;
+}
+.flex-contact .about-link {
+  width: 50%;
+}
+.flex-contact .about-link h4 {
+  font-family: "AbrilFatface";
+  text-transform: uppercase;
+  font-size: 1.3rem;
+}
+.flex-contact .about-link p {
+  font-family: "Montserrat";
+  font-size: 1rem;
+}
+.flex-contact .blog-link {
+  width: 50%;
+}
+.flex-contact .blog-link h4 {
+  font-family: "AbrilFatface";
+  text-transform: uppercase;
+  font-size: 1.3rem;
+}
+.flex-contact .blog-link p {
+  font-family: "Montserrat";
+  font-size: 1rem;
+}
+.flex-contact .contact-me-link {
+  width: 50%;
+}
+.flex-contact .contact-me-link h4 {
+  font-family: "AbrilFatface";
+  text-transform: uppercase;
+  font-size: 1.3rem;
+}
+.flex-contact .contact-me-link p {
+  font-family: "Montserrat";
+  font-size: 1rem;
+}
+
+footer {
+  background-color: #1f1f1f;
+}
+footer h5 {
+  text-align: center;
+  font-family: "Montserrat";
+  color: #f6f6f6;
+  font-size: 0.6rem;
+  margin: 0;
+  padding: 4px;
 }
