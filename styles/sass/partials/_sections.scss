@@ -99,14 +99,14 @@
     margin-right: 100px;
     h4 {
         font-family: 'AbrilFatface';
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         text-transform: uppercase;
         letter-spacing: 2px;
         width: 70%;
     }
     p {
         font-family: 'Montserrat';
-        font-size: 1rem;
+        font-size: .8rem;
     }
     a {
         font-family: 'AbrilFatface';
@@ -115,8 +115,7 @@
         color: $black;
         font-size: .8rem;
         text-transform: uppercase;
-        // width: 30%;
-        
+        text-decoration: none;        
     }
 }
 
@@ -347,11 +346,9 @@
 }
 
 
-//main blog section
 
-.col1 {
-    width: 30%
-}
+
+
 
 
 

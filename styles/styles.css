@@ -564,14 +564,14 @@ p {
 }
 .gallery-text h4 {
   font-family: "AbrilFatface";
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-transform: uppercase;
   letter-spacing: 2px;
   width: 70%;
 }
 .gallery-text p {
   font-family: "Montserrat";
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 .gallery-text a {
   font-family: "AbrilFatface";
@@ -580,6 +580,7 @@ p {
   color: #1f1f1f;
   font-size: 0.8rem;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 .test {
@@ -822,10 +823,6 @@ p {
 .form-submit {
   margin-top: 20px;
   border-radius: none;
-}
-
-.col1 {
-  width: 30%;
 }
 
 footer {
