@@ -1,8 +1,13 @@
 //media queries 
 
-@media (max-width: 570px) {
-    .mainNav ul {
-        // width: 100%;
+@media (max-width: 1200px) {
+    .gallery-2-container img {
+        width: 12rem;
     }
+}
 
-} 
+@media (max-width: 800px) {
+    .gallery-2-container img {
+        width: 8rem ;
+    }
+}

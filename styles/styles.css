@@ -845,6 +845,16 @@ footer h5 {
   padding: 4px;
 }
 
+@media (max-width: 1200px) {
+  .gallery-2-container img {
+    width: 12rem;
+  }
+}
+@media (max-width: 800px) {
+  .gallery-2-container img {
+    width: 8rem;
+  }
+}
 .contact form {
   display: -webkit-box;
   display: -ms-flexbox;
