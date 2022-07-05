@@ -360,6 +360,92 @@ p {
   left: 4rem;
 }
 
+.tree-background-2 {
+  background-image: url(../../../assets/contact-image-1.jpg);
+  width: 100%;
+  height: 15rem;
+}
+.tree-background-2 .blog-text {
+  position: absolute;
+}
+.tree-background-2 .blog-text h2 {
+  position: relative;
+  font-family: "AbrilFatface";
+  font-size: 2.5rem;
+  color: #f6f6f6;
+  text-transform: uppercase;
+  top: 10.6rem;
+  left: 4rem;
+}
+
+.col1 {
+  width: 30%;
+}
+
+#main-contact-content {
+  background-color: #f6f6f6;
+}
+
+.contact-page-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 40px;
+}
+
+.contact-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+}
+.contact-info a {
+  font-family: "Montserrat";
+  font-size: 0.7rem;
+  line-height: 20px;
+  text-decoration: none;
+  color: #1f1f1f;
+  font-weight: bold;
+}
+.contact-info p {
+  font-family: "Montserrat";
+  font-size: 0.7rem;
+  line-height: 19px;
+}
+
+.col2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 70%;
+  margin-left: 20px;
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.social i {
+  color: #345231;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
 #main-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -445,7 +531,7 @@ p {
 .gallery .gallery-container .gallery-item .gallery-img-container {
   height: 400px;
   position: relative;
-  width: 50%;
+  width: 70%;
 }
 .gallery .gallery-container .gallery-item .gallery-img-container img {
   position: absolute;
@@ -474,6 +560,7 @@ p {
       -ms-flex-direction: column;
           flex-direction: column;
   margin-left: 100px;
+  margin-right: 100px;
 }
 .gallery-text h4 {
   font-family: "AbrilFatface";
@@ -493,6 +580,19 @@ p {
   color: #1f1f1f;
   font-size: 0.8rem;
   text-transform: uppercase;
+}
+
+.test {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 .journey {
@@ -537,12 +637,12 @@ p {
   font-family: "AbrilFatface";
   color: #1f1f1f;
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   text-transform: uppercase;
   text-decoration: none;
   background-color: #e4a436;
   padding: 10px 20px;
-  width: 30%;
+  width: 50%;
   margin-top: 20px;
 }
 
@@ -566,51 +666,27 @@ p {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-.flex-contact .photos-link {
+.flex-contact .footer-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 50%;
 }
-.flex-contact .photos-link h4 {
+.flex-contact .footer-link img {
+  background-color: #e4a436;
+  border-radius: 50%;
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+  padding: 10px;
+}
+.flex-contact .footer-link h4 {
+  padding-top: 15px;
   font-family: "AbrilFatface";
   text-transform: uppercase;
   font-size: 1.3rem;
+  margin: 0;
 }
-.flex-contact .photos-link p {
-  font-family: "Montserrat";
-  font-size: 1rem;
-}
-.flex-contact .about-link {
-  width: 50%;
-}
-.flex-contact .about-link h4 {
-  font-family: "AbrilFatface";
-  text-transform: uppercase;
-  font-size: 1.3rem;
-}
-.flex-contact .about-link p {
-  font-family: "Montserrat";
-  font-size: 1rem;
-}
-.flex-contact .blog-link {
-  width: 50%;
-}
-.flex-contact .blog-link h4 {
-  font-family: "AbrilFatface";
-  text-transform: uppercase;
-  font-size: 1.3rem;
-}
-.flex-contact .blog-link p {
-  font-family: "Montserrat";
-  font-size: 1rem;
-}
-.flex-contact .contact-me-link {
-  width: 50%;
-}
-.flex-contact .contact-me-link h4 {
-  font-family: "AbrilFatface";
-  text-transform: uppercase;
-  font-size: 1.3rem;
-}
-.flex-contact .contact-me-link p {
+.flex-contact .footer-link p {
   font-family: "Montserrat";
   font-size: 1rem;
 }
@@ -739,6 +815,19 @@ p {
   margin-bottom: 0;
 }
 
+.post-2 {
+  border-bottom: 4px solid #709b6b;
+}
+
+.form-submit {
+  margin-top: 20px;
+  border-radius: none;
+}
+
+.col1 {
+  width: 30%;
+}
+
 footer {
   background-color: #1f1f1f;
 }
@@ -752,6 +841,87 @@ footer h5 {
   padding: 4px;
 }
 
-.form-submit {
+.contact form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 20px auto;
+  max-width: 1000px;
+}
+
+input,
+textarea {
+  border: none;
+  font-family: "Montserrat";
+  color: #333;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  font-size: 0.8rem;
+  color: #1f1f1f;
+  opacity: 1;
+  line-height: 1.2;
+  text-transform: capitalize;
+  -webkit-box-align: center;
+          align-items: center;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+  font-size: 0.8rem;
+  color: #1f1f1f;
+  opacity: 1;
+  line-height: 1.2;
+  text-transform: capitalize;
+  align-items: center;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  font-size: 0.8rem;
+  color: #1f1f1f;
+  opacity: 1;
+  line-height: 1.2;
+  text-transform: capitalize;
+  -ms-flex-align: center;
+      align-items: center;
+}
+input::-ms-input-placeholder, textarea::-ms-input-placeholder {
+  font-size: 0.8rem;
+  color: #1f1f1f;
+  opacity: 1;
+  line-height: 1.2;
+  text-transform: capitalize;
+  -ms-flex-align: center;
+      align-items: center;
+}
+input::placeholder,
+textarea::placeholder {
+  font-size: 0.8rem;
+  color: #1f1f1f;
+  opacity: 1;
+  line-height: 1.2;
+  text-transform: capitalize;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+input {
+  width: 49%;
+}
+
+textarea {
   width: 100%;
+}
+
+.contact-button {
+  background-color: #e4a436;
+  padding: 18px;
+  border: none;
+  width: 100%;
+  font-family: "AbrilFatface";
+  text-transform: uppercase;
 }

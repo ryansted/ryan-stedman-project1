@@ -38,6 +38,8 @@
     }
 }
 
+
+
 .gallery {
     width: 100%;
 
@@ -65,7 +67,7 @@
             .gallery-img-container {
                 height: 400px;
                 position: relative;
-                width: 50%;
+                width: 70%;
 
                 img {
                     position: absolute;
@@ -94,6 +96,7 @@
     justify-content: center;
     flex-direction: column;
     margin-left: 100px;
+    margin-right: 100px;
     h4 {
         font-family: 'AbrilFatface';
         font-size: 1.5rem;
@@ -115,6 +118,13 @@
         // width: 30%;
         
     }
+}
+
+.test {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    // margin-right: 10%;
 }
 
 // willow journey  section
@@ -152,12 +162,12 @@
             font-family: 'AbrilFatface';
             color: $black;
             text-align: center;
-            font-size: .8rem;
+            font-size: .6rem;
             text-transform: uppercase;
             text-decoration: none;
             background-color: $accent;
             padding: 10px 20px;
-            width: 30%;
+            width: 50%;
             margin-top: 20px;
         }
     }   
@@ -186,55 +196,31 @@
 .flex-contact {
     display: flex;
     flex-wrap: wrap;
-    .photos-link {
+    .footer-link {
+        display: flex;
         width: 50%;
+        img {
+            background-color: $accent;
+            border-radius: 50%;
+            transform: scale(.5);
+            padding:10px;
+            
+        }
         h4 {
+            padding-top: 15px;
             font-family: 'AbrilFatface';
             text-transform: uppercase;
             font-size: 1.3rem;
+            margin: 0;
         }
-        p {
-            font-family: 'Montserrat';
-            font-size: 1rem;
-        }
-    }
-    .about-link {
-        width: 50%;
-        h4 {
-                font-family: 'AbrilFatface';
-                text-transform: uppercase;
-                font-size: 1.3rem;
-            }
-        p{
-            font-family: 'Montserrat';
-            font-size: 1rem;
-        }
-    }
-    .blog-link {
-        width: 50%;
-        h4 {
-                font-family: 'AbrilFatface';
-                text-transform: uppercase;
-                font-size: 1.3rem;
-            }
-        p {
-            font-family: 'Montserrat';
-            font-size: 1rem;
-        }
-    }
-    .contact-me-link {
-        width: 50%;
-        h4 {
-                font-family: 'AbrilFatface';
-                text-transform: uppercase;
-                font-size: 1.3rem;
-            }
         p {
             font-family: 'Montserrat';
             font-size: 1rem;
         }
     }
 }
+
+
 
 
 //section for blog and news
@@ -348,8 +334,27 @@
         margin-left: 15px;
         margin-bottom: 0;
     }
+}
+
+.post-2 {
+    border-bottom: 4px solid $green-grey;
+}
+
+.form-submit {
+    margin-top: 20px;
+    border-radius: none;  
 
 }
+
+
+//main blog section
+
+.col1 {
+    width: 30%
+}
+
+
+
 
 
 

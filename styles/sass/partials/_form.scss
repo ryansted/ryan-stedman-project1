@@ -1,0 +1,46 @@
+.contact form {
+    display: flex;
+    // flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    max-width: 1000px;
+}
+
+input,
+textarea {
+    border: none;
+    font-family: 'Montserrat';
+    color: #333;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+    
+
+    &::placeholder {
+        font-size: 0.8rem;
+        color: $black;
+        opacity: 1;
+        line-height: 1.2;
+        text-transform: capitalize;
+        align-items: center;
+    }
+}
+
+input {
+    width: 49%;
+}
+
+textarea {
+    width: 100%;
+}
+
+.contact-button {
+background-color: $accent;
+padding: 18px;
+border: none;
+width: 100%;
+font-family: 'AbrilFatface';
+text-transform: uppercase;
+}
+
