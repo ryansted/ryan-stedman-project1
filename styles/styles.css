@@ -687,12 +687,16 @@ html {
           transform: scale(0.5);
   padding: 10px;
 }
-.flex-contact .footer-link h4 {
-  padding-top: 15px;
+.flex-contact .footer-link a {
   font-family: "AbrilFatface";
   text-transform: uppercase;
   font-size: 1.3rem;
   margin: 0;
+  text-decoration: none;
+}
+.flex-contact .footer-link a h4 {
+  padding-top: 0;
+  color: #1f1f1f;
 }
 .flex-contact .footer-link p {
   font-family: "Montserrat";
@@ -938,4 +942,8 @@ textarea {
   width: 100%;
   font-family: "AbrilFatface";
   text-transform: uppercase;
+}
+
+.contact-form {
+  margin-bottom: 100px;
 }
