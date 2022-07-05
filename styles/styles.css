@@ -235,10 +235,6 @@ html {
   font-size: 125%;
 }
 
-p {
-  font-size: 0.9rem;
-}
-
 .wrapper {
   max-width: 1260px;
   width: 85%;
@@ -281,6 +277,8 @@ p {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 20px;
+  padding-left: 0;
+  width: 100%;
 }
 .mainNav ul li {
   list-style: none;
