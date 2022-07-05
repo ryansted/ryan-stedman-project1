@@ -10,13 +10,10 @@
 input,
 textarea {
     border: none;
-    font-family: 'Montserrat';
+    font-family: $bodyFont;
     color: #333;
     padding: 20px;
-    margin-bottom: 20px;
-    
-    
-
+    margin-bottom: 20px; 
     &::placeholder {
         font-size: 0.8rem;
         color: $black;
@@ -40,7 +37,7 @@ background-color: $accent;
 padding: 18px;
 border: none;
 width: 100%;
-font-family: 'AbrilFatface';
+font-family: $headingFont;
 text-transform: uppercase;
 }
 

@@ -29,7 +29,7 @@
         a{
             text-decoration: none;
             color: $white-shade;
-            font-family: 'Montserrat';
+            font-family: $bodyFont;
             font-weight: bold;
             font-size: .8rem;
             letter-spacing: 1px;
@@ -37,8 +37,9 @@
         }
     }    
 }
+
 .mainNav li .logo {
-    font-family: 'AbrilFatface';
+    font-family: $headingFont;
     font-size: 1.5rem;
     font-weight: 200;
 }
